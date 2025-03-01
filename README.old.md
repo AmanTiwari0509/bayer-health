@@ -25,47 +25,50 @@ goals
 
 API Endpoints
  1️⃣ User Authentication APIs (Registration, Login, Logout)
+
 POST
-/api/auth/register
+-/api/auth/register
 -Register a new user (Patient/Provider/Admin)
 
 POST
-/api/auth/login
+-/api/auth/login
 -Log in a user and get JWT token
 
 POST
-/api/auth/logout
+-/api/auth/logout
 -Log out user (invalidate session)
 
 GET
-/api/auth/me
+-/api/auth/me
 -Get logged-in user details
 
 
 🩺 Patient APIs
+
 GET
-/api/patient/profile
+-/api/patient/profile
 -Fetch the patient's profile
 
 PUT
-/api/patient/profile
+-/api/patient/profile
 -Update the patient's profile (name, age, gender, allergies, medication)
 
 POST
-/api/patient/data
+-/api/patient/data
 -Add patient data (age, gender, assigned doctor, allergies, medication, health tracker)
 
 PUT
-/api/patient/update-health
+-/api/patient/update-health
 -Update only allergies & current medication (by patient)
 
 GET
-/api/patient/get-health
+-/api/patient/get-health
 -Fetch allergies & current medication (by patient only)
 
 👨‍⚕️ Provider APIs
+
 POST
-/api/provider/assign-patient
+-/api/provider/assign-patient
 -Assign a patient to a provider
 
 
