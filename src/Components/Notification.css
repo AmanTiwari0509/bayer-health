@@ -1,0 +1,12 @@
+.notification-container{
+    border: 1px solid gray;
+    margin: 5px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;border: 1px solid #f1f1f1;
+    border: 1px solid #000000;
+    /* padding-bottom: 30px; */
+    padding: 30px;
+}

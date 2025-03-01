@@ -1,0 +1,10 @@
+.user-container{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+   
+}
+
+.user-cards{
+   margin: 15px;
+}
