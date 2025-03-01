@@ -5,8 +5,6 @@ Frontend - React JS, Redux-toolkit, Tailwind, material ui , react router dom , v
 Backend - Node JS, Mongo, mongoose , bcrypt, express, cors , jsonwebtoken, logger.js
 
 Data modeling
-Collection Name
-Purpose
 
 users
 -Stores authentication details for all users (Patients & Providers)
