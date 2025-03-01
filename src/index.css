@@ -1,1 +1,67 @@
+/* Center the login form with more height */
+.login-container {
+  width: 100%;
+  max-width: 400px; /* Slightly wider */
+  margin: 15px auto; /* Center the container */
+  padding: 30px;
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 8px; /* Slightly rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  text-align: center; /* Center content */
+  background: #fff; /* White background */
+  min-height: 350px; /* Increase form height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.signup-container {
+  width: 100%;
+  max-width: 400px; /* Slightly wider */
+  margin: 35px auto; /* Center the container */
+  padding: 30px;
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 8px; /* Slightly rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  text-align: center; /* Center content */
+  background: #fff; /* White background */
+  min-height: 350px; /* Increase form height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+/* Style input fields with more height */
+.input {
+  width: 100%;
+  border: 1px solid #ccc; /* Light gray border */
+  padding: 15px; /* Increase padding */
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 16px; /* Make text larger */
+}
+
+/* Style login button with more height */
+.button {
+  width: 100%;
+  padding: 15px;
+  background: #007bff; /* Blue background */
+  color: white; /* Ensure text is white */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold; /* Make text bolder for better readability */
+  text-align: center;
+}
+
+.button:hover {
+  background: #0056b3; /* Darker blue on hover */
+}
+
+.label {
+  display: block; /* Make it a block element */
+  text-align: left; /* Align text to the left */
+  font-weight: 500; /* Slightly bold */
+  margin-bottom: 5px; /* Space between label and input */
+}
