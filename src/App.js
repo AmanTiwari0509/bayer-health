@@ -9,6 +9,7 @@ import MyProfile from "./Components/MyProfile";
 import MyWellnessGoals from "./Components/MyWellnessGoals";
 import MyMessages from "./Components/MyMessages";
 import MyLogout from "./Components/MyLogout";
+import Dashboard from "./Components/Dashboard";
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
             }
           />
       
-        {/* <Route path="/" element={<Dashboard />} /> */}
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/myprofile" element={<MyProfile />} />
         <Route path="/wellnessgoals" element={<MyWellnessGoals />} />
         <Route path="/messages" element={<MyMessages />} />
