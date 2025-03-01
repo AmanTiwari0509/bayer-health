@@ -35,6 +35,8 @@ import DirectionsRunIcon from '@mui/icons-material/DirectionsRun';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import HotelIcon from '@mui/icons-material/Hotel';
 
+import useFetchData from './useFetchData';
+
 export default function HealthcareProviderView() {
   const [auth, setAuth] = React.useState(true);
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -43,6 +45,10 @@ export default function HealthcareProviderView() {
 
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(10);
+
+  const { data, loading, error } = useFetchData('https://jsonplaceholder.typicode.com/todos/1');
+
+  console.log('data: ', data)
 
   const handleChangePage = (event, newPage) => {
     setPage(newPage);
