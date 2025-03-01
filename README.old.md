@@ -8,17 +8,16 @@ Data modeling
 Collection Name
 Purpose
 
-
 users
-Stores authentication details for all users (Patients & Providers)
+-Stores authentication details for all users (Patients & Providers)
 
 
 patients
-Stores patient-specific details (health records, assigned provider)
+-Stores patient-specific details (health records, assigned provider)
 
  
 goals
-Stores patient-specific goal tracking (e.g., weight loss, medication adherence)
+-Stores patient-specific goal tracking (e.g., weight loss, medication adherence)
 
 
 
@@ -30,46 +29,46 @@ API Endpoints
  1️⃣ User Authentication APIs (Registration, Login, Logout)
 POST
 /api/auth/register
-Register a new user (Patient/Provider/Admin)
+-Register a new user (Patient/Provider/Admin)
 
 POST
 /api/auth/login
-Log in a user and get JWT token
+-Log in a user and get JWT token
 
 POST
 /api/auth/logout
-Log out user (invalidate session)
+-Log out user (invalidate session)
 
 GET
 /api/auth/me
-Get logged-in user details
+-Get logged-in user details
 
 
 🩺 Patient APIs
 GET
 /api/patient/profile
-Fetch the patient's profile
+-Fetch the patient's profile
 
 PUT
 /api/patient/profile
-Update the patient's profile (name, age, gender, allergies, medication)
+-Update the patient's profile (name, age, gender, allergies, medication)
 
 POST
 /api/patient/data
-Add patient data (age, gender, assigned doctor, allergies, medication, health tracker)
+-Add patient data (age, gender, assigned doctor, allergies, medication, health tracker)
 
 PUT
 /api/patient/update-health
-Update only allergies & current medication (by patient)
+-Update only allergies & current medication (by patient)
 
 GET
 /api/patient/get-health
-Fetch allergies & current medication (by patient only)
+-Fetch allergies & current medication (by patient only)
 
 👨‍⚕️ Provider APIs
 POST
 /api/provider/assign-patient
-Assign a patient to a provider
+-Assign a patient to a provider
 
 
 
@@ -116,8 +115,8 @@ Debugging and Testing
 
 Roles in the project
 1. Frontend
-   Login & landing page - Aman
-   Patient view - Amit
+   Login & landing page - Aman,
+   Patient view - Amit,
    Healthcare provider view - Bharath U
 2. Backend - Siddhant
 
