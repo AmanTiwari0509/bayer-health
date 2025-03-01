@@ -1,0 +1,66 @@
+General sidebar styling
+.sidebar-container {
+    /* position: relative; */
+    /* height: 100vh; */
+    transition: all 0.3s ease;
+  }
+  
+  .sidebar {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 20px 0;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: block;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #555;
+  }
+  
+  .sidebar-container.closed .sidebar {
+    transform: translateX(-250px);
+  }
+  
+  .toggle-btn {
+    /* position: absolute;
+    top: 20px;
+    right: -80px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease; */
+  }
+  
+  .toggle-btn:hover {
+    background-color: #555;
+  }
+  
+  .sidebar-container.open .toggle-btn {
+    right: 200px;
+  }
+  
