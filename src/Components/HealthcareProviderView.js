@@ -34,6 +34,9 @@ import Slide from '@mui/material/Slide';
 import DirectionsRunIcon from '@mui/icons-material/DirectionsRun';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import HotelIcon from '@mui/icons-material/Hotel';
+import InputLabel from '@mui/material/InputLabel';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select';
 
 import useFetchData from './useFetchData';
 
@@ -45,6 +48,12 @@ export default function HealthcareProviderView() {
 
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(10);
+
+  const [usertype, setUsertype] = React.useState('');
+
+  const handleUsertypeChange = (event) => {
+    setUsertype(event.target.value);
+  };
 
   const { data, loading, error } = useFetchData('https://jsonplaceholder.typicode.com/todos/1');
 
@@ -149,6 +158,7 @@ export default function HealthcareProviderView() {
       </AppBar>
 
       <Typography sx={{marginLeft: '15px'}} variant="h6" component="div">Hello, Provider!</Typography>
+      
 
       <Box
       sx={{
@@ -173,6 +183,7 @@ export default function HealthcareProviderView() {
               <Typography variant="body2" color="text.secondary">Patients who missed prevention checkup</Typography>
             </CardContent>
         </Card>
+        
     </Box>
 
       <Box sx={{padding: '15px'}}>
