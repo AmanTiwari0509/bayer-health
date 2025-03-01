@@ -115,11 +115,12 @@ Debugging and Testing
 
 
 Roles in the project
-Frontend
-  Login & landing page - Aman
-  Patient view - Amit
-  Healthcare provider view - Bharath U
-Backend - Siddhant
+1. Frontend
+   Login & landing page - Aman
+   Patient view - Amit
+   Healthcare provider view - Bharath U
+2. Backend - Siddhant
+
  
 
 
