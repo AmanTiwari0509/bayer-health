@@ -5,14 +5,24 @@ Frontend - React JS, Redux-toolkit, Tailwind, material ui , react router dom , v
 Backend - Node JS, Mongo, mongoose , bcrypt, express, cors , jsonwebtoken, logger.js
 
 Data modeling
-1. Collection Name - users
-   Purpose - Stores authentication details for all users (Patients & Providers)
+Collection Name
+Purpose
 
-2. Collection Name - patients
-   Purpose - Stores patient-specific details (health records, assigned provider)
+
+users
+Stores authentication details for all users (Patients & Providers)
+
+
+patients
+Stores patient-specific details (health records, assigned provider)
+
  
-3. Collection Name - goals
-   Purpose - Stores patient-specific goal tracking (e.g., weight loss, medication adherence)
+goals
+Stores patient-specific goal tracking (e.g., weight loss, medication adherence)
+
+
+
+
 
 
 
